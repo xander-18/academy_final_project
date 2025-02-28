@@ -14,5 +14,10 @@
         android:id="@+id/navigation_profile"
         android:name="com.example.myxapp.ProfileFragment"
         android:label="Profile"
-        tools:layout="@layout/fragment_profile" />x
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/navigation_report"
+        android:name="com.example.myxapp.ReportesFragment"
+        android:label="Reports"
+        tools:layout="@layout/fragment_reportes" />
 </navigation>

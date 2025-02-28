@@ -4,9 +4,14 @@
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/id_home_24"
-        android:title="@string/home" />
+        android:title="@string/home"
+        />
     <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/id_profile_24"
         android:title="@string/profile" />
+    <item
+        android:id="@+id/navigation_report"
+        android:icon="@drawable/id_report_24"
+        android:title="@string/reports" />
 </menu>
