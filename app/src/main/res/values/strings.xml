@@ -7,4 +7,6 @@
     <string name="report">Report</string>
     <string name="reports">Reports</string>
     <string name="select">Tipo de Residuo</string>
+    <string name="input">Ingrese cantidad</string>
+    <string name="button">Register</string>
 </resources>

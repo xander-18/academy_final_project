@@ -24,8 +24,10 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
      override fun onCreate(savedInstanceState: Bundle   ?) {
          super.onCreate(savedInstanceState)
          enableEdgeToEdge()
+
          binding = ActivityMainBinding.inflate(layoutInflater)
          setContentView(binding.root)
+
 
          autoCompleteTextView = findViewById(R.id.autoCompleteTextView)
          adapterItems = ArrayAdapter(this, R.layout.list_item, items)
